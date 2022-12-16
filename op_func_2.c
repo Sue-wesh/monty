@@ -77,7 +77,6 @@ void _mul(stack_t **stack, unsigned int line_number)
 void _pop(stack_t **stack, unsigned int n)
 {
 	stack_t *node;
-
 	(void) n;
 
 	if (!stack || !(*stack))
