@@ -1,3 +1,4 @@
+#define  _GNU_SOURCE
 #include "monty.h"
 
 unsigned int line_number = 0;
