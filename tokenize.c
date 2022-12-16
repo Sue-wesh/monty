@@ -36,7 +36,6 @@ char **tokenize(char *buffer)
 		token = strtok(NULL, delim); /* pt to next token */
 		idx++;
 	}
-
 	store[2] = NULL;
 
 	return (store);
