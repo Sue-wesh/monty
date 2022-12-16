@@ -18,6 +18,7 @@ static instruction_t ops[] = {
 		{"rotr", _rotr},
 		{NULL, NULL}
 	};
+
 /**
  * call - call appropriate function
  * @tokens: pointer to array of tokens
