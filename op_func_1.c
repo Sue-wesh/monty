@@ -39,7 +39,6 @@ void _pchar(stack_t **stack, unsigned int n)
 	fprintf(stdout, "%c\n", (*stack)->n);
 }
 
-
 /**
  * _pstr - prints a string
  * @stack: pointered to a stack
